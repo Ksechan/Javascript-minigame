@@ -1,0 +1,27 @@
+h2 {
+  display: inline-block;
+  margin: 10px;
+}
+
+.score h2 {
+  margin-bottom: 0;
+}
+
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  width: 450px;
+  height: 450px;
+}
+
+.square {
+  width: 130px;
+  height: 130px;
+  border: 1px solid black;
+  margin-right: 15px;
+}
+
+.mole {
+  background-image: url('/mole.png');
+  background-size: cover;
+}
